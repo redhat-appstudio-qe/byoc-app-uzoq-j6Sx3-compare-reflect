@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: dtyq
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-appstudio-qe/byoc-crjw-tenant/byoc-app-uzoq/dtyq@sha256:6de43760f326ca5c5fdba893d484822f9d7ff6f651b96c15ed860485ed762775
         name: my-java-quarkus
         ports:
         - containerPort: 8081
